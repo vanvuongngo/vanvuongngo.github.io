@@ -9,9 +9,6 @@ const config = {
 
 	kit: {
 		target: '#svelte',
-		paths: {
-			base: '/docs'
-		},
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',
