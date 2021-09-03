@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Vuongs Lab - You will find tutorials about IT software and hardware projects" />
+	<meta name="description" content="Vuongs Lab - Hier findest du Themen rund um meine IT Software and Hardware Projekte" />
 </svelte:head>
 
 <section>
