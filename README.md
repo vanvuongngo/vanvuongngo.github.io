@@ -1,71 +1,60 @@
-# Qwik City App ⚡️
+# Van Vuong Ngo - Projects in 2025
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+## Topics
+
+Part I: State of the Art
+
+- I Web App Development - Latest Trends
+- II Desktop App Development - Latest Trends
+- III Mobile App Development - Latest Trends
+- IV Data Science & Artificial Intelligence - Future Predictions
+- V Cybersecurity & Privacy - Emerging Technologies
+- VI My opinionated bet on technologies in 2025
+
+
+Part II: Own projects to deep dive into modern technologies 2025
+
+- I This github pages with microfrontends and spin
+- II Homelab
+- III E-Mail templates for professional communications with customer to create a diamond branding
+- ...
+
+
+## State of the Art
+
+### I.I Web App Development - Latest Trends
+
+[PHP (SSR), JQuery, React.js and Angular.js] ...
+
+
+### I.II Desktop App Development - Latest Trends
+
+[Rust - secure, memory safe and high developer experience] ...
+
+### I.III Mobile App Development - Latest Trends
+
+[use Web technologies to build the UI]...
+
+### I.IV Data Science & Artificial Intelligence - Future Predictions
+
+[ChatGPT, Ollama, Big Data, GPU, NPU]...
+
+### I.V Cybersecurity & Privacy - Emerging Technologies
+
+[Docker with Node.js w/o shell. WebAssembly - sandbox] ...
+
+### I.VI My opinionated bet on technologies in 2025
+
+Comming form SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> battery included technologies: Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
 
 ---
 
-## Project Structure
+## Contact Information
 
-This project is using Qwik with [QwikCity](https://qwik.dev/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/vanvuong-ngo/)
+- GitHub: [GitHub Repository](https://github.com/vanvuongngo)
 
-Inside your project, you'll see the following directory structure:
+## Acknowledgments
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
+This project was made possible by the efforts of my team and the support of my community. Thank you for your contributions!
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.dev/qwikcity/routing/overview/) for more info.
-
-- `src/components`: Recommended directory for components.
-
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
-
-## Add Integrations and deployment
-
-Use the `pnpm qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.dev/qwikcity/guides/static-site-generation/).
-
-```shell
-pnpm qwik add # or `pnpm qwik add`
-```
-
-## Development
-
-Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
-
-```shell
-npm start # or `pnpm start`
-```
-
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
-
-## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
-
-```shell
-pnpm preview # or `pnpm preview`
-```
-
-## Production
-
-The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
-
-```shell
-pnpm build # or `pnpm build`
-```
-
-## Static Site Generator (Node.js)
-
-```shell
-pnpm build.server
-```
