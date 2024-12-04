@@ -38,6 +38,8 @@ jobs:
         uses: actions/checkout@v4
 #      - name: Setup Pages
 #        uses: actions/configure-pages@v5
+      - name: list source
+        run: ls
       - name: Install dependencies
         run: npm ci
       - name: Build
