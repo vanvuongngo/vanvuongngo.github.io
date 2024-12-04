@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
+  "name": "vvn-landingpage",
+  "description": "My github pages about in my opinion optimal technologies for web applications in 2025. By design it must be secure and scalable for small, medium and large companies.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
@@ -9,7 +9,6 @@
   "trustedDependencies": [
     "sharp"
   ],
-  "trustedDependencies-annotation": "Needed for bun to allow running install scripts",
   "type": "module",
   "scripts": {
     "build": "qwik build",
