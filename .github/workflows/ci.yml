@@ -38,10 +38,10 @@ jobs:
         uses: actions/checkout@v4
 #      - name: Setup Pages
 #        uses: actions/configure-pages@v5
-      - name: list source
-        run: ls
+      - name: Install pnpm
+        run: npm i -g pnpm
       - name: Install dependencies
-        run: npm ci
+        run: pnpm ci
       - name: Build
         run: npm run build.server
       - name: Upload artifact
