@@ -39,7 +39,7 @@ importers:
         specifier: ^5.7.3
         version: 5.7.3
       undici:
-        specifier: '*'
+        specifier: ^7.3.0
         version: 7.3.0
       vite:
         specifier: 5.4.12
