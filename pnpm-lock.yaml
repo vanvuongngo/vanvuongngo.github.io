@@ -15,8 +15,8 @@ importers:
         specifier: ^1.12.1
         version: 1.12.1(vite@6.2.5(@types/node@22.13.16))
       '@builder.io/qwik-city':
-        specifier: ^1.12.1
-        version: 1.12.1(acorn@8.14.1)(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.5(@types/node@22.13.16))
+        specifier: ^1.13.0
+        version: 1.13.0(acorn@8.14.1)(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.5(@types/node@22.13.16))
       '@types/eslint':
         specifier: ^8.56.12
         version: 8.56.12
@@ -45,7 +45,7 @@ importers:
         specifier: ^7.6.0
         version: 7.6.0
       vite:
-        specifier: 6.2.5
+        specifier: ^6.2.5
         version: 6.2.5(@types/node@22.13.16)
       vite-tsconfig-paths:
         specifier: ^5.1.4
@@ -53,8 +53,8 @@ importers:
 
 packages:
 
-  '@builder.io/qwik-city@1.12.1':
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  '@builder.io/qwik-city@1.13.0':
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -1508,8 +1508,8 @@ packages:
   remark-parse@11.0.0:
     resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
 
-  remark-rehype@11.1.1:
-    resolution: {integrity: sha512-g/osARvjkBXb6Wo0XvAeXQohVta8i84ACbenPpoSsxTOQH/Ae0/RGP4WZgnMH5pMLpsj4FG7OHmcIcXxpza8eQ==}
+  remark-rehype@11.1.2:
+    resolution: {integrity: sha512-Dh7l57ianaEoIpzbp0PC9UKAdCSVklD8E5Rpw7ETfbTl3FqcOOgq5q2LVDhgGCkaBv7p24JXikPdvhhmHvKMsw==}
 
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
@@ -1843,7 +1843,7 @@ packages:
 
 snapshots:
 
-  '@builder.io/qwik-city@1.12.1(acorn@8.14.1)(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.5(@types/node@22.13.16))':
+  '@builder.io/qwik-city@1.13.0(acorn@8.14.1)(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.5(@types/node@22.13.16))':
     dependencies:
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       '@types/mdx': 2.0.13
@@ -2075,7 +2075,7 @@ snapshots:
       rehype-recma: 1.0.0
       remark-mdx: 3.1.0
       remark-parse: 11.0.0
-      remark-rehype: 11.1.1
+      remark-rehype: 11.1.2
       source-map: 0.7.4
       unified: 11.0.5
       unist-util-position-from-estree: 2.0.0
@@ -3639,7 +3639,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  remark-rehype@11.1.1:
+  remark-rehype@11.1.2:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
