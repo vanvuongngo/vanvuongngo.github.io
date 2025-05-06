@@ -29,11 +29,11 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.13.0",
     "@builder.io/qwik-city": "^1.13.0",
-    "@types/eslint": "^8.56.12",
+    "@types/eslint": "^9.6.1",
     "@types/node": "^22.13.16",
     "@typescript-eslint/eslint-plugin": "^8.30.1",
     "@typescript-eslint/parser": "^8.29.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.26.0",
     "eslint-plugin-qwik": "^1.13.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
