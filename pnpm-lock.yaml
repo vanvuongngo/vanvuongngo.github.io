@@ -17,6 +17,12 @@ importers:
       '@builder.io/qwik-city':
         specifier: ^1.13.0
         version: 1.13.0(acorn@8.14.1)(rollup@4.40.1)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.12))
+      '@eslint/eslintrc':
+        specifier: ^3.3.1
+        version: 3.3.1
+      '@eslint/js':
+        specifier: ^9.26.0
+        version: 9.26.0
       '@types/eslint':
         specifier: ^9.6.1
         version: 9.6.1
