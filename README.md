@@ -45,7 +45,7 @@ Part II: Own projects to deep dive into modern technologies 2025
 
 ### I.VI My opinionated bet on technologies in 2025
 
-Comming form SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> battery included technologies: Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
+Comming from SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> battery included technologies: Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
 
 ---
 
