@@ -11,7 +11,6 @@ Part I: State of the Art
 - V Cybersecurity & Privacy - Emerging Technologies
 - VI My opinionated bet on technologies in 2025
 
-
 Part II: Own projects to deep dive into modern technologies 2025
 
 - I This github pages with microfrontends and spin
@@ -19,13 +18,11 @@ Part II: Own projects to deep dive into modern technologies 2025
 - III E-Mail templates for professional communications with customer to create a diamond branding
 - ...
 
-
 ## State of the Art
 
 ### I.I Web App Development - Latest Trends
 
 [PHP (SSR), JQuery, React.js and Angular.js] ...
-
 
 ### I.II Desktop App Development - Latest Trends
 
@@ -58,3 +55,12 @@ Comming from SSR fast but without SPA user-experience, overloaded hydration base
 
 This project was made possible by the efforts of my team and the support of my community. Thank you for your contributions!
 
+## Static Site Generator (Node.js)
+
+Be sure to configure your server to serve very long cache headers for the `build/**/*.js` files.
+
+Typically you'd set the `Cache-Control` header for those files to `public, max-age=31536000, immutable`.
+
+```shell
+npm run build.server
+```
