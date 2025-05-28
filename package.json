@@ -27,19 +27,19 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.13.0",
-    "@builder.io/qwik-city": "^1.13.0",
+    "@builder.io/qwik": "^1.14.1",
+    "@builder.io/qwik-city": "^1.14.1",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.27.0",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^22.15.19",
-    "@typescript-eslint/eslint-plugin": "^8.32.1",
-    "@typescript-eslint/parser": "^8.32.1",
+    "@types/node": "^22.15.23",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
     "eslint": "^9.27.0",
-    "eslint-plugin-qwik": "^1.13.0",
+    "eslint-plugin-qwik": "^1.14.1",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
-    "undici": "^7.9.0",
+    "undici": "^7.10.0",
     "vite": "^6.3.5",
     "vite-tsconfig-paths": "^5.1.4"
   },
@@ -48,7 +48,8 @@
       "esbuild@<=0.24.2": ">=0.25.0"
     },
     "onlyBuiltDependencies": [
-      "esbuild"
+      "esbuild",
+      "sharp"
     ]
   }
 }
