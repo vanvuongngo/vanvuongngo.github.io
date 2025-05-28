@@ -24,7 +24,8 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.14.1",
@@ -37,6 +38,7 @@
     "@typescript-eslint/parser": "^8.33.0",
     "eslint": "^9.27.0",
     "eslint-plugin-qwik": "^1.14.1",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
     "undici": "^7.10.0",
@@ -51,5 +53,8 @@
       "esbuild",
       "sharp"
     ]
+  },
+  "dependencies": {
+    "globals": "^16.2.0"
   }
 }
