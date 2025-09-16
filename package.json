@@ -28,7 +28,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.15.0",
+    "@builder.io/qwik": "^1.16.0",
     "@builder.io/qwik-city": "^1.16.0",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.35.0",
