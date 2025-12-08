@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@builder.io/qwik':
         specifier: ^1.17.2
-        version: 1.17.2(vite@7.2.4(@types/node@24.10.1))
+        version: 1.17.2(vite@7.2.7(@types/node@24.10.1))
       '@builder.io/qwik-city':
         specifier: ^1.17.2
         version: 1.17.2(@types/node@24.10.1)(rollup@4.53.3)(typescript@5.9.3)
@@ -58,11 +58,11 @@ importers:
         specifier: ^7.16.0
         version: 7.16.0
       vite:
-        specifier: ^7.2.4
-        version: 7.2.4(@types/node@24.10.1)
+        specifier: ^7.2.7
+        version: 7.2.7(@types/node@24.10.1)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@7.2.4(@types/node@24.10.1))
+        version: 5.1.4(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.1))
 
 packages:
 
@@ -1888,8 +1888,8 @@ packages:
       vite:
         optional: true
 
-  vite@7.2.4:
-    resolution: {integrity: sha512-NL8jTlbo0Tn4dUEXEsUg8KeyG/Lkmc4Fnzb8JXN/Ykm9G4HNImjtABMJgkQoVjOBN/j2WAwDTRytdqJbZsah7w==}
+  vite@7.2.7:
+    resolution: {integrity: sha512-ITcnkFeR3+fI8P1wMgItjGrR10170d8auB4EpMLPqmx6uxElH3a/hHGQabSHKdqd4FXWO1nFIp9rRn7JQ34ACQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1974,7 +1974,7 @@ snapshots:
       undici: 7.16.0
       valibot: 1.1.0(typescript@5.9.3)
       vfile: 6.0.3
-      vite: 7.2.4(@types/node@24.10.1)
+      vite: 7.2.7(@types/node@24.10.1)
       vite-imagetools: 9.0.0(rollup@4.53.3)
       zod: 3.25.48
     transitivePeerDependencies:
@@ -1993,12 +1993,12 @@ snapshots:
       - typescript
       - yaml
 
-  '@builder.io/qwik@1.17.2(vite@7.2.4(@types/node@24.10.1))':
+  '@builder.io/qwik@1.17.2(vite@7.2.7(@types/node@24.10.1))':
     dependencies:
       csstype: 3.2.3
       launch-editor: 2.12.0
       rollup: 4.53.3
-      vite: 7.2.4(@types/node@24.10.1)
+      vite: 7.2.7(@types/node@24.10.1)
 
   '@emnapi/runtime@1.7.1':
     dependencies:
@@ -4215,18 +4215,18 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.2.4(@types/node@24.10.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.2.7(@types/node@24.10.1)):
     dependencies:
       debug: 4.4.1
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.9.3)
     optionalDependencies:
-      vite: 7.2.4(@types/node@24.10.1)
+      vite: 7.2.7(@types/node@24.10.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.2.4(@types/node@24.10.1):
+  vite@7.2.7(@types/node@24.10.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
