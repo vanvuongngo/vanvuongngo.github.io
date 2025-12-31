@@ -1,4 +1,4 @@
-# Van Vuong Ngo - Projects in 2025
+# Van Vuong Ngo - Projects in 2026
 
 ## Topics
 
@@ -9,11 +9,11 @@ Part I: State of the Art
 - III Mobile App Development - Latest Trends
 - IV Data Science & Artificial Intelligence - Future Predictions
 - V Cybersecurity & Privacy - Emerging Technologies
-- VI My opinionated bet on technologies in 2025
+- VI My opinionated bet on technologies in 2026
 
-Part II: Own projects to deep dive into modern technologies 2025
+Part II: Own projects to deep dive into modern technologies 2026
 
-- I This github pages with microfrontends and spin
+- I This github pages is about frontends, backend and devops
 - II Homelab
 - III E-Mail templates for professional communications with customer to create a diamond branding
 - ...
@@ -22,7 +22,7 @@ Part II: Own projects to deep dive into modern technologies 2025
 
 ### I.I Web App Development - Latest Trends
 
-[PHP (SSR), JQuery, React.js and Angular.js] ...
+[React.js, Astro, Qwik, CMS] ...
 
 ### I.II Desktop App Development - Latest Trends
 
@@ -30,19 +30,19 @@ Part II: Own projects to deep dive into modern technologies 2025
 
 ### I.III Mobile App Development - Latest Trends
 
-[use Web technologies to build the UI]...
+[use Web technologies to build the UI, tauri]...
 
 ### I.IV Data Science & Artificial Intelligence - Future Predictions
 
-[ChatGPT, Ollama, Big Data, GPU, NPU]...
+[ChatGPT, N8Hk Ollama, Big Data, GPU, NPU]...
 
 ### I.V Cybersecurity & Privacy - Emerging Technologies
 
-[Docker with Node.js w/o shell. WebAssembly - sandbox] ...
+[Docker w/o shell, WebAssembly - sandbox] ...
 
-### I.VI My opinionated bet on technologies in 2025
+### I.VI My opinionated bet on technologies in 2026
 
-Comming from SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> battery included technologies: Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
+Comming from SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> battery included technologies: Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); fermyon spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
 
 ---
 
