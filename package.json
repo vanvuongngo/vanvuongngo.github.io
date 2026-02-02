@@ -55,6 +55,6 @@
     ]
   },
   "dependencies": {
-    "globals": "^17.1.0"
+    "globals": "^17.3.0"
   }
 }
