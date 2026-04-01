@@ -17,10 +17,10 @@ importers:
     devDependencies:
       '@builder.io/qwik':
         specifier: ^1.19.2
-        version: 1.19.2(vite@7.3.1(@types/node@25.4.0))
+        version: 1.19.2(vite@7.3.1(@types/node@25.5.0))
       '@builder.io/qwik-city':
         specifier: ^1.19.2
-        version: 1.19.2(@types/node@25.4.0)(rollup@4.59.0)(typescript@5.9.3)
+        version: 1.19.2(@types/node@25.5.0)(rollup@4.59.0)(typescript@5.9.3)
       '@eslint/eslintrc':
         specifier: ^3.3.5
         version: 3.3.5
@@ -31,8 +31,8 @@ importers:
         specifier: ^9.6.1
         version: 9.6.1
       '@types/node':
-        specifier: ^25.4.0
-        version: 25.4.0
+        specifier: ^25.5.0
+        version: 25.5.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.56.1
         version: 8.56.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0)(typescript@5.9.3)
@@ -59,10 +59,10 @@ importers:
         version: 7.24.7
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@25.4.0)
+        version: 7.3.1(@types/node@25.5.0)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.4.0))
+        version: 6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.5.0))
 
 packages:
 
@@ -719,8 +719,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@25.4.0':
-    resolution: {integrity: sha512-9wLpoeWuBlcbBpOY3XmzSTG3oscB6xjBEEtn+pYXTfhyXhIxC5FsBer2KTopBlvKEiW9l13po9fq+SJY/5lkhw==}
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -2068,7 +2068,7 @@ packages:
 
 snapshots:
 
-  '@builder.io/qwik-city@1.19.2(@types/node@25.4.0)(rollup@4.59.0)(typescript@5.9.3)':
+  '@builder.io/qwik-city@1.19.2(@types/node@25.5.0)(rollup@4.59.0)(typescript@5.9.3)':
     dependencies:
       '@mdx-js/mdx': 3.1.1
       '@types/mdx': 2.0.13
@@ -2077,7 +2077,7 @@ snapshots:
       undici: 7.24.7
       valibot: 1.3.1(typescript@5.9.3)
       vfile: 6.0.3
-      vite: 7.3.1(@types/node@25.4.0)
+      vite: 7.3.1(@types/node@25.5.0)
       vite-imagetools: 9.0.3(rollup@4.59.0)
       zod: 3.25.48
     transitivePeerDependencies:
@@ -2096,12 +2096,12 @@ snapshots:
       - typescript
       - yaml
 
-  '@builder.io/qwik@1.19.2(vite@7.3.1(@types/node@25.4.0))':
+  '@builder.io/qwik@1.19.2(vite@7.3.1(@types/node@25.5.0))':
     dependencies:
       csstype: 3.2.3
       launch-editor: 2.13.1
       rollup: 4.59.0
-      vite: 7.3.1(@types/node@25.4.0)
+      vite: 7.3.1(@types/node@25.5.0)
 
   '@emnapi/runtime@1.9.1':
     dependencies:
@@ -2558,7 +2558,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@25.4.0':
+  '@types/node@25.5.0':
     dependencies:
       undici-types: 7.18.2
 
@@ -4411,17 +4411,17 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.4.0)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.5.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 7.3.1(@types/node@25.4.0)
+      vite: 7.3.1(@types/node@25.5.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.3.1(@types/node@25.4.0):
+  vite@7.3.1(@types/node@25.5.0):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -4430,7 +4430,7 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.4.0
+      '@types/node': 25.5.0
       fsevents: 2.3.3
 
   which-boxed-primitive@1.1.1:
