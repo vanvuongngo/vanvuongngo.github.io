@@ -1,6 +1,6 @@
 {
   "name": "vvn-landingpage",
-  "description": "My github pages about in my opinion optimal technologies for web applications in 2025. By design it must be secure and scalable for small, medium and large companies.",
+  "description": "My github pages about in my opinion optimal technologies for web applications in 2026. By design it must be secure and scalable for small, medium and large companies.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
