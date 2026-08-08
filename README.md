@@ -1,64 +1,51 @@
-# [@qwik.dev/astro](https://github.com/QwikDev/astro) Starter Kit
+# Van Vuong Ngo - Projects in 2026
 
-## Overview
+## Topics
 
-Welcome to the [@qwik.dev/astro](https://github.com/QwikDev/astro) starter kit! This kit enables seamless integration of Qwik components into your Astro projects, combining the efficiency of Qwik's component-based architecture with the flexibility of Astro's static site generation.
+Part I: State of the Art
 
-## 🚀 Project Structure
+- I Web App Development - Latest Trends
+- II Desktop App Development - Latest Trends
+- III Mobile App Development - Latest Trends
+- IV Data Science & Artificial Intelligence - Future Predictions
+- V Cybersecurity & Privacy - Emerging Technologies
+- VI My opinionated bet on technologies in 2026
 
-Inside of your [Qwik](https://qwik.dev/) + [Astro](https://astro.build/) project, you'll see the following folders and files:
+Part II: Own projects to deep dive into modern technologies 2026
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   │   ├── astro.svg
-│   │   └── qwik.svg
-│   ├── components/
-│   │   ├── counter.module.css
-│   │   └── counter.tsx
-│   ├── layouts/
-│   │   └── Layout.astro
-│   ├── pages/
-│   │   └── index.astro
-│   └── styles/
-│       └── globals.css
-└── package.json
-```
+- I This github pages is about frontends, backend and devops
+- II Homelab
+- ...
 
-- **public/** : This directory contains static resources such as images, accessible from the root of your deployed site.
+## Part I - State of the Art
 
-- **src/** : This directory is the core of your Qwik + Astro application. Here's an overview of its structure:
+### I Web App Development - Latest Trends
 
-  - **assets/** : This directory is for resources such as images, SVG files, etc.
-  - **components/** : Qwik components are stored here. Use this directory to organize and create reusable components for your application.
-  - **layouts/** : Astro layouts reside in this directory. Layout files define the overall structure of your pages.
-  - **pages/** : This directory contains the pages of your Astro application. Each file with the `.astro` or `.md` extension is exposed as a route based on its file name.
-  - **styles/** : Global style files for your application are stored here, such as `globals.css`.
+[Astro](https://astro.build/), [Qwik](https://qwik.dev/), [React](https://react.dev/), CMS
 
-## 🧞 Commands
+### II Desktop App Development - Latest Trends
 
-All commands are run from the root of the project, from a terminal:
+[Tauri](https://tauri.app/), [Electrobun](https://blackboard.sh/electrobun/), [deno desktop](https://docs.deno.com/runtime/desktop/)
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm start`           | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+### III Mobile App Development - Latest Trends
 
-## 📚 References
+Build mobile apps with [Tauri](https://tauri.app/) and on web technologies.
 
-- [Astro Documentation](https://astro.build/) - Explore more about Astro.
+### IV Data Science & Artificial Intelligence - Future Predictions
 
-- [Qwik Documentation](https://qwik.dev/) - Learn about Qwik and its features.
+[Claude](https://claude.ai/), [ChatGPT](https://chatgpt.com), [N8N](https://n8n.io/), [vLLM](https://vllm.ai/), [Ollama](https://ollama.com/), GPU, NPU
 
-- [Astro GitHub Repository](https://github.com/withastro/astro) - Contribute or report issues to the Astro project.
+### V Cybersecurity & Privacy - Emerging Technologies
 
-- [Qwik GitHub Repository](https://github.com/BuilderIO/qwik) - Contribute or report issues to the Qwik project.
+[Docker](https://www.docker.com/) container w/o shell, [WebAssembly](https://webassembly.org/) - sandbox ...
 
-- [Qwik + Astro GitHub Repository](https://github.com/QwikDev/astro) - Explore and contribute to the @qwik.dev/astro integration project.
+### VI My opinionated bet on technologies in 2026
+
+Coming from SSR fast but without SPA user-experience, overloaded hydration based JS Frameworks (white page with no HTML title) -> move to battery included technologies: Astro and Qwik mindblowing O(1) web framework with reduced 1kBytes of JS only for ever no matter how much business features you need and speed of SSR (resumability, reliable to bad network connection - prefetch); fermyon spin (polyglot, scaleable, low footprint, kubernetes with spinkube) ...
+
+---
+
+## Contact Information
+
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/vanvuong-ngo/)
+- GitHub: [GitHub Repository](https://github.com/vanvuongngo)
