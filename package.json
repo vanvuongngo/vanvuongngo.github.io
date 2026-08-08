@@ -1,0 +1,45 @@
+{
+  "name": "vanvuongngo-github-io",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "astro": "astro",
+    "sync": "astro sync",
+    "build": "pnpm fix && astro build",
+    "check": "pnpm check.fmt && pnpm check.lint && astro check",
+    "check.fmt": "prettier --check .",
+    "check.lint": "eslint \"**/*.{js,jsx,ts,tsx,astro}\"",
+    "dev": "astro dev",
+    "fix": "pnpm lint && pnpm fmt",
+    "fmt": "prettier --write .",
+    "lint": "eslint --fix \"**/*.{js,jsx,ts,tsx,astro}\"",
+    "lint.dry-run": "eslint --fix-dry-run \"**/*.{js,jsx,ts,tsx,astro}\"",
+    "preview": "pnpm build && astro preview",
+    "prod": "pnpm check && astro build",
+    "start": "astro dev --open"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.8",
+    "@qwik.dev/core": "2.0.0-beta.30",
+    "@qwik.dev/astro": "^1.0.0",
+    "astro": "^6.0.6"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.34.0",
+    "eslint-plugin-qwik": "^1.5.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
+  },
+  "overrides": {
+    "vite": "^7.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "^7.3"
+    }
+  }
+}
