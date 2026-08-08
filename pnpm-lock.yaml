@@ -13,10 +13,10 @@ importers:
         version: 0.9.10(prettier-plugin-astro@0.13.0)(prettier@3.9.6)(typescript@6.0.3)
       '@qwik.dev/astro':
         specifier: ^1.0.0
-        version: 1.0.2(@qwik.dev/core@2.0.0-beta.30(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0)))(astro@6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0))
+        version: 1.0.2(@qwik.dev/core@2.0.0-beta.38(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0)))(astro@6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0))
       '@qwik.dev/core':
-        specifier: 2.0.0-beta.30
-        version: 2.0.0-beta.30(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))
+        specifier: 2.0.0-beta.38
+        version: 2.0.0-beta.38(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))
       astro:
         specifier: ^6.4.8
         version: 6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0)
@@ -679,8 +679,8 @@ packages:
       '@qwik.dev/core': '>=2.0.0-beta.30 <3.0.0'
       astro: ^6.0.0
 
-  '@qwik.dev/core@2.0.0-beta.30':
-    resolution: {integrity: sha512-H8KTNdBUJMmNQWIBHpl3KO6rpZbvHDRFyUTVi9vhrMpMKH2AXO83EZ6VlGlNn8Rr+BAAj0/vNwnM0fXVTo/8IQ==}
+  '@qwik.dev/core@2.0.0-beta.38':
+    resolution: {integrity: sha512-+tOWhOzHugMnNMoZ1hWSXJpakXvzdZRXlIL92DLjJM0e6EJiQVdVAd59HRazoKhCdyKa8Lhv43VX5synTgEJQQ==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -693,8 +693,8 @@ packages:
       vitest:
         optional: true
 
-  '@qwik.dev/optimizer@2.0.1-beta.0':
-    resolution: {integrity: sha512-CwGT8nl4ou866cp0CDSYHiDgD60HgZQBHCmCwvslLsQs8xVvGAQGnxJlqm1clpclivxCcWQyqmdN8wiKsHB9qw==}
+  '@qwik.dev/optimizer@2.1.0-beta.5':
+    resolution: {integrity: sha512-ygrROBg8/lqyvfig78lAEtxHLmLJLNcncMWLguIK4vmruuYpYXQVMMHklsbcTDj9tEvhL1B/MfclDsiG5E4XOA==}
     engines: {node: ^20.3.0 || >=21.0.0}
 
   '@rollup/pluginutils@5.4.0':
@@ -3455,22 +3455,23 @@ snapshots:
 
   '@pkgr/core@0.1.2': {}
 
-  '@qwik.dev/astro@1.0.2(@qwik.dev/core@2.0.0-beta.30(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0)))(astro@6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0))':
+  '@qwik.dev/astro@1.0.2(@qwik.dev/core@2.0.0-beta.38(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0)))(astro@6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/core': 2.0.0-beta.30(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))
+      '@qwik.dev/core': 2.0.0-beta.38(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))
       astro: 6.4.8(rollup@4.62.4)(supports-color@7.2.0)(yaml@2.9.0)
 
-  '@qwik.dev/core@2.0.0-beta.30(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))':
+  '@qwik.dev/core@2.0.0-beta.38(prettier@3.9.6)(vite@7.3.6(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/optimizer': 2.0.1-beta.0
+      '@qwik.dev/optimizer': 2.1.0-beta.5
       csstype: 3.2.3
       launch-editor: 2.14.1
+      magic-string: 0.30.21
       rollup: 4.62.4
       vite: 7.3.6(yaml@2.9.0)
     optionalDependencies:
       prettier: 3.9.6
 
-  '@qwik.dev/optimizer@2.0.1-beta.0': {}
+  '@qwik.dev/optimizer@2.1.0-beta.5': {}
 
   '@rollup/pluginutils@5.4.0(rollup@4.62.4)':
     dependencies:
