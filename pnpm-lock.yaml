@@ -12,8 +12,8 @@ importers:
         specifier: ^0.9.10
         version: 0.9.10(prettier-plugin-astro@0.14.1)(prettier@3.9.6)(typescript@6.0.3)
       '@qwik.dev/astro':
-        specifier: ^1.1.0
-        version: 1.1.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))
+        specifier: ^1.2.0
+        version: 1.2.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))
       '@qwik.dev/core':
         specifier: 2.0.0-beta.42
         version: 2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
@@ -676,8 +676,8 @@ packages:
     resolution: {integrity: sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  '@qwik.dev/astro@1.1.0':
-    resolution: {integrity: sha512-LABx9febuhc5tm2yesoa0aK1USQOuiGi0l2oRff+RA6LpBFETcAX6bDMaFfPzvQF5QIcAm9AqilLMZz7Ok295w==}
+  '@qwik.dev/astro@1.2.0':
+    resolution: {integrity: sha512-SHsiVtCTReW4RaITiM2tLf24fwZ0zi+BuSDY8NOaj7ADi04PZXxQesQkTaqRfM1UHPPZ9NamjuOqpi/Oz0Xb0g==}
     peerDependencies:
       '@qwik.dev/core': '>=2.0.0-beta.40 <3.0.0'
       astro: ^7.0.0
@@ -3671,7 +3671,7 @@ snapshots:
 
   '@pkgr/core@0.3.6': {}
 
-  '@qwik.dev/astro@1.1.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))':
+  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))':
     dependencies:
       '@qwik.dev/core': 2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
       astro: 6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0)
