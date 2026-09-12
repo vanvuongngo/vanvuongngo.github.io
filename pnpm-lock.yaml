@@ -13,10 +13,10 @@ importers:
         version: 0.9.10(prettier-plugin-astro@0.14.1)(prettier@3.9.6)(typescript@6.0.3)
       '@qwik.dev/astro':
         specifier: ^1.2.0
-        version: 1.2.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))
+        version: 1.2.0(@qwik.dev/core@2.0.0-beta.43(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))
       '@qwik.dev/core':
-        specifier: 2.0.0-beta.42
-        version: 2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
+        specifier: 2.0.0-beta.43
+        version: 2.0.0-beta.43(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
       astro:
         specifier: ^6.4.8
         version: 6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0)
@@ -647,6 +647,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
+  '@jridgewell/sourcemap-codec@1.6.0':
+    resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
+
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     resolution: {integrity: sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==}
     engines: {node: ^22.20 || ^24.12 || >=25}
@@ -682,8 +685,8 @@ packages:
       '@qwik.dev/core': '>=2.0.0-beta.40 <3.0.0'
       astro: ^7.0.0
 
-  '@qwik.dev/core@2.0.0-beta.42':
-    resolution: {integrity: sha512-6IAANMo8CL+GWS3VPTWdSxYFeqjwLLCIEhcTWdTeg0Z9l/ycUvu3Q+Fy2Ppkv7QwtNBXgG/efnlICCqGUK+/4w==}
+  '@qwik.dev/core@2.0.0-beta.43':
+    resolution: {integrity: sha512-B/l74Cosp/t4F+pYeQO+sszd1YUn1lqSjE5nDg2C/2e7s0pYs9ofhU/WL3K2gfSGAlQxjxWle20lWWg0PZqeng==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -696,8 +699,8 @@ packages:
       vitest:
         optional: true
 
-  '@qwik.dev/optimizer@2.1.0-beta.7':
-    resolution: {integrity: sha512-hF2dIRohnhX7V/GZc+OJYAB6DBbasGMVqY6MmfRPh0FfKlFsnLlhSkPw2OCiF4+CxpKj2CVBI6PjvtP9gD8CJg==}
+  '@qwik.dev/optimizer@2.1.0-beta.8':
+    resolution: {integrity: sha512-UlxnV+sARxYCV+nKxHVRQpyRTrVn2g+Q4yRkxrGd75hmZG9R2aFiDUgmXpynwa0WnPK2tAg1Lu3ws6Ss7ej68w==}
     engines: {node: ^20.3.0 || >=21.0.0}
 
   '@rolldown/binding-android-arm-eabi@1.2.6':
@@ -3650,6 +3653,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
+  '@jridgewell/sourcemap-codec@1.6.0': {}
+
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     optional: true
 
@@ -3671,14 +3676,14 @@ snapshots:
 
   '@pkgr/core@0.3.6': {}
 
-  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))':
+  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-beta.43(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/core': 2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
+      '@qwik.dev/core': 2.0.0-beta.43(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
       astro: 6.4.8(lightningcss@1.33.0)(rollup@4.62.5)(supports-color@7.2.0)(yaml@2.9.0)
 
-  '@qwik.dev/core@2.0.0-beta.42(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))':
+  '@qwik.dev/core@2.0.0-beta.43(prettier@3.9.6)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/optimizer': 2.1.0-beta.7
+      '@qwik.dev/optimizer': 2.1.0-beta.8
       csstype: 3.2.3
       launch-editor: 2.14.1
       magic-string: 0.30.21
@@ -3686,7 +3691,7 @@ snapshots:
     optionalDependencies:
       prettier: 3.9.6
 
-  '@qwik.dev/optimizer@2.1.0-beta.7': {}
+  '@qwik.dev/optimizer@2.1.0-beta.8': {}
 
   '@rolldown/binding-android-arm-eabi@1.2.6':
     optional: true
@@ -5337,7 +5342,7 @@ snapshots:
 
   magic-string@0.30.21:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   magicast@0.5.4:
     dependencies:
