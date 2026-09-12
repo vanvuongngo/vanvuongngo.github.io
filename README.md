@@ -33,7 +33,7 @@ Build mobile apps with [Tauri](https://tauri.app/) and on web technologies.
 
 ### IV Data Science & Artificial Intelligence - Future Predictions
 
-[Claude](https://claude.ai/), [ChatGPT](https://chatgpt.com), [N8N](https://n8n.io/), [vLLM](https://vllm.ai/), [Ollama](https://ollama.com/), GPU, NPU
+[Hermes Agent](https://hermes-agent.nousresearch.com/), [Claude](https://claude.ai/), [ChatGPT](https://chatgpt.com), [N8N](https://n8n.io/), [vLLM](https://vllm.ai/), [Ollama](https://ollama.com/), GPU, NPU
 
 ### V Cybersecurity & Privacy - Emerging Technologies
 
