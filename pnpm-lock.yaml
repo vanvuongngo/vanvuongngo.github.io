@@ -13,10 +13,10 @@ importers:
         version: 0.9.10(prettier-plugin-astro@1.1.0(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(prettier@3.9.9))(prettier@3.9.9)(typescript@6.0.3)
       '@qwik.dev/astro':
         specifier: ^1.2.0
-        version: 1.2.0(@qwik.dev/core@2.0.0-beta.45(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.3.5(yaml@2.9.0))
+        version: 1.2.0(@qwik.dev/core@2.0.0-rc.0(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.3.5(yaml@2.9.0))
       '@qwik.dev/core':
-        specifier: 2.0.0-beta.45
-        version: 2.0.0-beta.45(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
+        specifier: 2.0.0-rc.0
+        version: 2.0.0-rc.0(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
       astro:
         specifier: ^7.3.5
         version: 7.3.5(yaml@2.9.0)
@@ -1011,8 +1011,8 @@ packages:
       '@qwik.dev/core': '>=2.0.0-beta.40 <3.0.0'
       astro: ^7.0.0
 
-  '@qwik.dev/core@2.0.0-beta.45':
-    resolution: {integrity: sha512-+J1MqfTmsAARJduDLGFg6Y2Lp/fzyh8eojN9wdecOL8kKJMF2Xf4JWcObc1xbPYl7Txt/rKjpo8w1Jh3Z2Qa5g==}
+  '@qwik.dev/core@2.0.0-rc.0':
+    resolution: {integrity: sha512-URY5uYDboQWV7jzaSYZE02ObiKxXT86SWDa4z3O06isOFks1ijTCv51+n/UivjosHiAGWKFKQbbvzz/nAWFlwA==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -4086,12 +4086,12 @@ snapshots:
 
   '@prettier/parse-srcset@3.1.0': {}
 
-  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-beta.45(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.3.5(yaml@2.9.0))':
+  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-rc.0(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.3.5(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/core': 2.0.0-beta.45(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
+      '@qwik.dev/core': 2.0.0-rc.0(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))
       astro: 7.3.5(yaml@2.9.0)
 
-  '@qwik.dev/core@2.0.0-beta.45(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))':
+  '@qwik.dev/core@2.0.0-rc.0(@oxc-project/types@0.147.0)(esbuild@0.28.1)(prettier@3.9.9)(rolldown@1.2.6)(rollup@4.62.5)(vite@8.2.2(esbuild@0.28.1)(yaml@2.9.0))':
     dependencies:
       '@emnapi/core': 1.11.3
       '@emnapi/runtime': 1.11.3
