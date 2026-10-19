@@ -13,10 +13,10 @@ importers:
         version: 0.9.10(prettier-plugin-astro@1.1.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(prettier@3.9.10))(prettier@3.9.10)(typescript@6.0.3)
       '@qwik.dev/astro':
         specifier: ^1.2.0
-        version: 1.2.0(@qwik.dev/core@2.0.0-rc.2(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.4.0(esbuild@0.28.1)(yaml@2.9.0))
+        version: 1.2.0(@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.4.0(esbuild@0.28.1)(yaml@2.9.0))
       '@qwik.dev/core':
-        specifier: 2.0.0-rc.2
-        version: 2.0.0-rc.2(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))
+        specifier: 2.0.0-rc.3
+        version: 2.0.0-rc.3(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))
       astro:
         specifier: ^7.4.0
         version: 7.4.0(esbuild@0.28.1)(yaml@2.9.0)
@@ -1011,8 +1011,8 @@ packages:
       '@qwik.dev/core': '>=2.0.0-beta.40 <3.0.0'
       astro: ^7.0.0
 
-  '@qwik.dev/core@2.0.0-rc.2':
-    resolution: {integrity: sha512-yYCSObNzz6spYauuGqwUrURNlqlnCKzVPW9FTx6arkGAf9NcsHfTYWc/lel8GeVajiYSgXrJ14MZL6grdEvH2A==}
+  '@qwik.dev/core@2.0.0-rc.3':
+    resolution: {integrity: sha512-s87/I5hyQAPXzLg1ihKwoGzA5931uIYdqBzwR6tKUCixrH2fijLrLQSZgAQk1Z0wA5Cw4KsfHMNX8tzx/tNSkg==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -2418,9 +2418,6 @@ packages:
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
-
-  magic-string@1.4.2:
-    resolution: {integrity: sha512-vG+rjFRj1PqdIBozIxAGMjPlOhaVe+GXpbttY/iSK7rGcJRMlwNJO7dcUwmUqkymsFLJiNGI06t4D7Fr7yRC9g==}
 
   magic-string@1.4.3:
     resolution: {integrity: sha512-z12OxmaPGE0F4xlpGdjuAUckipLpQlTAuAmyGhNoD7ODpYUzvDfvtxUbjM/jwznyP178oju/KDdyi220wNJ0RQ==}
@@ -4102,12 +4099,12 @@ snapshots:
 
   '@prettier/parse-srcset@3.1.0': {}
 
-  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-rc.2(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.4.0(esbuild@0.28.1)(yaml@2.9.0))':
+  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0)))(astro@7.4.0(esbuild@0.28.1)(yaml@2.9.0))':
     dependencies:
-      '@qwik.dev/core': 2.0.0-rc.2(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))
+      '@qwik.dev/core': 2.0.0-rc.3(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))
       astro: 7.4.0(esbuild@0.28.1)(yaml@2.9.0)
 
-  '@qwik.dev/core@2.0.0-rc.2(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))':
+  '@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.153.0)(esbuild@0.28.1)(prettier@3.9.10)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))':
     dependencies:
       '@emnapi/core': 1.11.3
       '@emnapi/runtime': 1.11.3
@@ -5667,7 +5664,7 @@ snapshots:
 
   magic-regexp@0.11.2(esbuild@0.28.1)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0)):
     dependencies:
-      magic-string: 1.4.2
+      magic-string: 1.4.3
       regexp-tree: 0.1.27
       type-level-regexp: 0.1.17
       unplugin: 3.4.0(esbuild@0.28.1)(rolldown@1.2.13)(rollup@4.62.5)(vite@8.3.4(esbuild@0.28.1)(yaml@2.9.0))
@@ -5684,10 +5681,6 @@ snapshots:
       - webpack
 
   magic-string@0.30.21:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.6.0
-
-  magic-string@1.4.2:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
 
