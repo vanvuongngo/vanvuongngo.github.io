@@ -13,10 +13,10 @@ importers:
         version: 0.9.12(@emnapi/runtime@1.11.3)(prettier-plugin-astro@1.1.2(prettier@3.9.10))(prettier@3.9.10)(typescript@6.0.3)
       '@qwik.dev/astro':
         specifier: ^1.2.0
-        version: 1.2.0(@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1)))(astro@7.4.4(yaml@2.9.1))
+        version: 1.2.0(@qwik.dev/core@2.0.0-rc.4(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1)))(astro@7.4.4(yaml@2.9.1))
       '@qwik.dev/core':
-        specifier: 2.0.0-rc.3
-        version: 2.0.0-rc.3(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))
+        specifier: 2.0.0-rc.4
+        version: 2.0.0-rc.4(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))
       astro:
         specifier: ^7.4.4
         version: 7.4.4(yaml@2.9.1)
@@ -782,8 +782,8 @@ packages:
       '@qwik.dev/core': '>=2.0.0-beta.40 <3.0.0'
       astro: ^7.0.0
 
-  '@qwik.dev/core@2.0.0-rc.3':
-    resolution: {integrity: sha512-s87/I5hyQAPXzLg1ihKwoGzA5931uIYdqBzwR6tKUCixrH2fijLrLQSZgAQk1Z0wA5Cw4KsfHMNX8tzx/tNSkg==}
+  '@qwik.dev/core@2.0.0-rc.4':
+    resolution: {integrity: sha512-z6M5WHPHD0IlCOFWCfuwk8ngUyQYQkkVdIlWBFWr5S9uTIVkYm8rugdF6JE06ICCh+08OHJsxjsuG0QA5wSVmw==}
     engines: {node: ^20.3.0 || >=21.0.0}
     hasBin: true
     peerDependencies:
@@ -796,8 +796,8 @@ packages:
       vitest:
         optional: true
 
-  '@qwik.dev/optimizer@2.1.0-beta.9':
-    resolution: {integrity: sha512-PKZedb4+/Goi5KS7HCiJXZO9g3prbmI7lTi+yhy0GBPHUFlmRWVCXhllGrgRBHbvuPxfLTOAfZ5d/sG2QufTXQ==}
+  '@qwik.dev/optimizer@2.1.0-rc.10':
+    resolution: {integrity: sha512-0yI+yY15xSEbBG0LSK5SYQSGU7EVXysHhea/BWb4yy0sGwThZsT6k4D7CgUrwVcuhfHPfBqSXALLvO8O5tc92Q==}
     engines: {node: ^20.3.0 || >=21.0.0}
 
   '@rolldown/binding-android-arm-eabi@1.2.15':
@@ -3567,16 +3567,16 @@ snapshots:
 
   '@prettier/parse-srcset@3.1.0': {}
 
-  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1)))(astro@7.4.4(yaml@2.9.1))':
+  '@qwik.dev/astro@1.2.0(@qwik.dev/core@2.0.0-rc.4(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1)))(astro@7.4.4(yaml@2.9.1))':
     dependencies:
-      '@qwik.dev/core': 2.0.0-rc.3(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))
+      '@qwik.dev/core': 2.0.0-rc.4(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))
       astro: 7.4.4(yaml@2.9.1)
 
-  '@qwik.dev/core@2.0.0-rc.3(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))':
+  '@qwik.dev/core@2.0.0-rc.4(@oxc-project/types@0.155.0)(prettier@3.9.10)(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))':
     dependencies:
       '@emnapi/core': 1.11.3
       '@emnapi/runtime': 1.11.3
-      '@qwik.dev/optimizer': 2.1.0-beta.9
+      '@qwik.dev/optimizer': 2.1.0-rc.10
       csstype: 3.2.3
       launch-editor: 2.14.2
       magic-regexp: 0.11.2(rolldown@1.2.15)(vite@8.3.5(yaml@2.9.1))
@@ -3601,7 +3601,7 @@ snapshots:
       - unloader
       - webpack
 
-  '@qwik.dev/optimizer@2.1.0-beta.9': {}
+  '@qwik.dev/optimizer@2.1.0-rc.10': {}
 
   '@rolldown/binding-android-arm-eabi@1.2.15':
     optional: true
