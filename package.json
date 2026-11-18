@@ -25,6 +25,7 @@
     "astro": "^7.4.11"
   },
   "devDependencies": {
+    "@emnapi/runtime": "^1.11.3",
     "@types/eslint": "^8.56.12",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
@@ -34,5 +35,8 @@
     "husky": "^9.1.7",
     "prettier": "^3.10.1",
     "prettier-plugin-astro": "^1.1.2"
+  },
+  "peerDependencies": {
+    "@emnapi/runtime": "^1.11.3"
   }
 }
