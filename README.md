@@ -45,7 +45,21 @@ Coming from SSR fast but without SPA user-experience, overloaded hydration based
 
 ---
 
+Issues
+
+1. remove pinned @emnapi/runtime v1 when @astrojs/check got updated
+issue: `pnpm check` fails
+
+2. pinned minimatch in pnpm-workspace.yaml
+issue: `pnpm build̀` fails
+
+overrides:
+  minimatch@>=7.0.0 <11.0.1: ">=11.0.1"
+
+---
+
 ## Contact Information
 
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/vanvuong-ngo/)
 - GitHub: [GitHub Repository](https://github.com/vanvuongngo)
+
