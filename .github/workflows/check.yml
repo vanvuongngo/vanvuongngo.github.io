@@ -3,7 +3,14 @@ name: Check code style
 permissions:
   contents: read
 
-on: ["push", "pull_request"]
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   ci:
